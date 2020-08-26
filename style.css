@@ -1,12 +1,14 @@
 /*-- container --*/
+
 .container {
   max-width: 1640px;
   margin: 0 auto;
-  padding-right: 120px;
   padding-left: 120px;
+  padding-right: 120px;
 }
 
 /*-- navigation --*/
+
 @media (min-width: 992px) {
   #navbarMenu {
     display: none !important;
@@ -42,15 +44,33 @@
   font-size: 16px;
   align-items: center;
 }
+
+/*-- main content --*/
+
+main h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: serif;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  background-color: lightgrey;
+}
+.first-article-text {
+  text-align: left;
+}
+.second-article-text {
+  text-align: right;
+}
+.about-text {
+  text-align: center;
+}
 div .intro {
   height: 300px;
-  margin-top: 40px;
 }
-.about-pic img {
-  border-radius: 100%;
-  width: 360px;
-  height: auto;
-  align-items: center;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .first-article-image img {
   border-radius: 25px;
@@ -61,4 +81,10 @@ div .intro {
   border-radius: 25px;
   height: 350px;
   width: auto;
+}
+.about-pic img {
+  border-radius: 100%;
+  width: 360px;
+  height: auto;
+  align-items: center;
 }
