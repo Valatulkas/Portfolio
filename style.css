@@ -1,0 +1,64 @@
+/*-- container --*/
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+/*-- navigation --*/
+@media (min-width: 992px) {
+  #navbarMenu {
+    display: none !important;
+  }
+  .navbar {
+    height: 120px;
+  }
+}
+@media (max-width: 992px) {
+  .lg-navbar {
+    background-image: url(./images/backcountry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .lg-navbar h2, .lg-navbar a {
+    display: flex;
+    justify-content: center;
+  }
+}
+.navbar a {
+  display: flex;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+}
+div .intro {
+  height: 300px;
+  margin-top: 40px;
+}
+.about-pic img {
+  border-radius: 100%;
+  width: 360px;
+  height: auto;
+  align-items: center;
+}
+.first-article-image img {
+  border-radius: 25px;
+  height: 350px;
+  width: auto;
+}
+.second-article-image img {
+  border-radius: 25px;
+  height: 350px;
+  width: auto;
+}
