@@ -15,6 +15,7 @@
   }
   .navbar {
     height: 120px;
+    background-color: #F5FFFA;
   }
   .navbar a:hover {
     color: purple;
@@ -52,11 +53,12 @@
 }
 
 /*-- main content --*/
+
 @media (max-width: 500px) {
-    .footer-container {
-      margin-top: 100px;
-      padding-top: 150px;
-    }
+  .footer-container {
+    margin-top: 100px;
+    padding-top: 150px;
+  }
 }
 @media (min-width: 501px) {
   .footer-container {
@@ -72,21 +74,22 @@
     margin-top: 0px;
     padding-top: 0px;
   }
+  nav h1 {
+    margin-left: 68px;
+  }
+  .navbar-nav {
+    margin-right: 68px;
+  }
 }
-main h1 {
-  text-align: center;
-  font-weight: bold;
-  font-family: serif;
-  padding-top: 60px;
-  padding-bottom: 52px;
+nav h1 {
+  margin-top: 1rem;
   font-style: italic;
-
+  font-family: serif;
 }
 main h2, footer h2 {
   text-align: center;
   font-family: serif;
   padding-top: 30px;
-  text-decoration: underline;
 }
 .idea-text {
   text-align: center;
@@ -132,6 +135,12 @@ div .intro {
 .about-text p, .colorful p {
   line-height: 3;
 }
+.colorful {
+  background-color: #FFF5EE;
+}
+.minty {
+  background-color: #F5F5DC;
+}
 .hmu {
   text-align: center;
   font-weight: 200;
@@ -147,6 +156,9 @@ div .intro {
 .footerNav img {
   width: 32px;
   height: 32px;
+}
+.footer-container {
+  background-color: #F5FFFA;
 }
 #coolerful {
   height: 30px;
