@@ -13,21 +13,20 @@
 
       <div class="d-none d-lg-flex flex-grow-1" id="xlNavbar">
         <div class="navbar-nav mx-auto">
-          <a href="#" class="nav-item nav-link py-3 pr-5">Projects</a>
-          <a href="#" class="nav-item nav-link py-3 pr-5">About Me</a>
-          <a href="#" class="nav-item nav-link py-3 px-3">Contact</a>
+          <a href="#projects" class="nav-item nav-link py-3 pr-5">Projects</a>
+          <a href="#About-Me" class="nav-item nav-link py-3 pr-5">About Me</a>
+          <a href="#Contact" class="nav-item nav-link py-3 px-3">Contact</a>
         </div>
       </div>
-
 
       <!-- lg & below -->
 
       <div class="d-xs-flex d-lg-none flex-grow-1 lg-navbar pl-0 pr-0">
         <h2>Menu</h2>
         <div class="navbar-nav">
-          <a class="nav-item nav-link "href="#">About Me</a>
-          <a class="nav-item nav-link "href="#">Projects</a>
-          <a class="nav-item nav-link "href="#">Contact</a>
+          <a href="#Projects" class="nav-item nav-link">Projects</a>
+          <a href="#About-Me" class="nav-item nav-link">About Me</a>
+          <a href="Contact" class="nav-item nav-link">Contact</a>
         </div>
       </div>
     </nav>
@@ -38,7 +37,7 @@
     <main>
       <h1>J Ferg's Web Dev Portfolio</h1>
       <hr class="my-0">
-      <h2>Projects</h2>
+      <h2 id="Projects">Projects</h2>
       <div class="container flex colorful">
         <div class="row py-4">
           <div class="col-12 col-lg-7 idea-text align-self-center justify-content-left">
@@ -50,7 +49,7 @@
           <div class="col-12 col-lg-2">
           </div>
         </div>
-        <hr class="my-0 w-75">
+        <hr class="my-0 w-50">
         <div class="row py-4">
           <div class="col-12 col-lg-1">
           </div>
@@ -63,7 +62,7 @@
           <div class="col-12 col-lg-1">
           </div>
         </div>
-        <hr class="my-0 w-75">
+        <hr class="my-0 w-50">
         <div class="row py-4">
           <div class="col-12 col-lg-1">
           </div>
@@ -81,7 +80,7 @@
 
       <!-- about me -->
 
-      <h2>About Me</h2>
+      <h2 id="About-Me">About Me</h2>
       <div class="container flex intro">
         <div class="row intro pt-3">
           <div class="col-12 col-lg-1">
@@ -98,19 +97,48 @@
           </div>
         </div>
       </div>
+      <hr class="mt-5">
+      <h2 id="Contact">Contact</h2>
     </main>
-    <hr class="mt-5">
 
     <!-- footer -->
+
     <footer class="container-fluid container">
       <div class="row pt-5 d-none d-md-flex footerNav">
         <div class="col-12 hmu">
-          <h4>Hoping to connect with more and more coders as I go along. Please give me a shout on any of the below if you'd be open to working together in any capacity! (pawn = chess.com)</h4>
+          <h5>Hoping to connect with more and more coders as I go along.</h5>
+          <h5 class="mt-4">Please give me a shout on any of the below if you'd be open to working together in any capacity!</h5>
+          <h5 class="mt-4">Please also feel free to contact me directly at <b>jfergie93@gmail.com</b></h5>
+          <h5 class="mt-4">Looking forward to getting into it.</h5>
+          <h5 class="mt-4"> And always looking for a game of chess...</h5>
         </div>
-        <div class="col-12 connects">
-
+        <div class="col-2">
         </div>
+        <div class="col-2">
+          <a href="https://github.com/jmferg11" target="_blank">
+            <img src="./images/github.jpg" alt="github">
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="https://www.linkedin.com/in/jack-ferguson-05977966/" target="_blank">
+            <img src="./images/linkedin.jpg" class="align-content-center" alt="linkedin">
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./images/instagram.jpg" alt="instagram">
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="https://www.chess.com/" target="_blank">
+            <img src="./images/pawn.jpg" alt="chess pawn">
+          </a>
+        </div>
+        <div class="col-2 mb-5">
+        </div>
+      </div>
+      <div class="mt-4" id="coolerful">
+      </div>
     </footer>
-    <hr class="mt-5">
   </body>
 </html>
