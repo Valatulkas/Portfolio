@@ -20,13 +20,12 @@
   .navbar a:hover {
     color: purple;
   }
+  .navbar-nav .nav-item {
+    color: darkslategrey;
+  }
 }
 @media (max-width: 992px) {
   .lg-navbar {
-    background-image: url(./images/backcountry.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: block;
     justify-content: center;
     padding-top: 20px;
@@ -35,10 +34,14 @@
   .navbar {
     padding-left: 0;
     padding-right: 0;
+    background-color: #F5FFFA;
   }
   .lg-navbar h2, .lg-navbar a {
     display: flex;
     justify-content: center;
+  }
+  .navbar-nav .nav-item {
+    color: darkslategrey;
   }
 }
 .navbar a {
@@ -54,18 +57,6 @@
 
 /*-- main content --*/
 
-@media (max-width: 500px) {
-  .footer-container {
-    margin-top: 100px;
-    padding-top: 150px;
-  }
-}
-@media (min-width: 501px) {
-  .footer-container {
-    margin-top: 100px;
-    padding-top: 100px;
-  }
-}
 @media (min-width: 992px) {
   .colorful img, .intro img {
     align-items: center;
@@ -76,6 +67,7 @@
   }
   nav h1 {
     margin-left: 68px;
+    color: darkslategrey;
   }
   .navbar-nav {
     margin-right: 68px;
@@ -85,6 +77,7 @@ nav h1 {
   margin-top: 1rem;
   font-style: italic;
   font-family: serif;
+  color: darkslategrey;
 }
 main h2, footer h2 {
   text-align: center;
@@ -102,9 +95,6 @@ main h2, footer h2 {
 }
 .about-text {
   text-align: center;
-}
-div .intro {
-  height: 300px;
 }
 .center {
   display: block;
@@ -131,9 +121,6 @@ div .intro {
   width: 300px;
   height: auto;
   align-items: center;
-}
-.about-text p, .colorful p {
-  line-height: 3;
 }
 .colorful {
   background-color: #FFF5EE;
